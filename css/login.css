@@ -123,6 +123,9 @@
   .main_login_form_button{
     width: 100%;
   }
+  .main_introduce, .main_login{
+    padding : 7.3rem 7.8rem 8rem 7.8rem;
+  }
 }
 
 .main_login_form_button:hover{
