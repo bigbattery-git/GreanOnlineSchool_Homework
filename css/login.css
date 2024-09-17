@@ -25,9 +25,17 @@
 .main_introduce_title_title{
   font-size: 2.5rem;
   margin-bottom: 2rem;
+
+  animation: onStartWeb 1s forwards ease-in-out;
+
+  color: rgba(255,255,255,0);
 }
 .main_introduce_title_subtitle{
   font-family: 'KimjungchulMyungjo-Light';
+
+  animation: onStartWeb 1s 0.5s forwards ease-in-out;
+
+  color: rgba(255,255,255,0);
 }
 
 .main_introduce_description_comment{
@@ -36,6 +44,20 @@
   line-height: 2.5rem;
 
   margin-bottom: 3rem;
+
+  animation: onStartWeb 1s 1s forwards ease-in-out;
+
+  color: rgba(255,255,255,0);
+}
+
+@keyframes onStartWeb{
+  from{
+    transform: translateY(-30px);
+  }
+  to{
+    color: rgba(255,255,255,1);
+    transform: translateY(0);
+  }
 }
 
 .main_introduce_description_profil{
