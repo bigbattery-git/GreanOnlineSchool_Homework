@@ -116,7 +116,10 @@
   color: white;
 }
 
-@media(max-width : 639px){
+@media(max-width : 1099px){
+  .main{
+    grid-auto-rows: 1fr;
+  }
   .main_login_form_button{
     width: 100%;
   }
