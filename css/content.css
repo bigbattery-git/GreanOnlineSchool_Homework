@@ -68,11 +68,17 @@
 @media (max-width : 1220px){
   .main{
     padding : 0;
+    margin-bottom: 6rem;
   }
 
   .main_description{
     grid-template-columns: none;
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .main_description_img{
+    margin-top: 2rem;
+    
   }
 
   .main_description_grid{
