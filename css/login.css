@@ -1,0 +1,133 @@
+/* main */
+
+/* left side */
+.main{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-auto-rows: minmax(975px, 1fr);
+}
+
+.main_introduce{
+  background-image: url("../resources/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color: white;
+
+  padding : 7.5rem 6.5rem 8rem 11.4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_introduce_title_title{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.main_introduce_title_subtitle{
+  font-family: 'KimjungchulMyungjo-Light';
+}
+
+.main_introduce_description_comment{
+  font-family: 'KimjungchulMyungjo-Regular';
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+
+  margin-bottom: 3rem;
+}
+
+.main_introduce_description_profil{
+  display: flex;
+  gap: 1rem;
+}
+
+.main_introduce_description_profil_img{
+  background-image: url("../resources/profil_img.png");
+  width: 54px;
+  height:48px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-radius: 100%;
+}
+
+.main_introduce_description_profil_nameEmp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_introduce_description_profil_nameEmp_emp{
+  font-family: 'KimjungchulMyungjo-Light';
+  font-size: 0.8rem;
+}
+
+/* right side */
+
+.main_login{
+  padding : 7.3rem 11rem 8rem 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_login_introduce_title{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.main_login_introduce_description{
+  font-family: 'KimjungchulMyungjo-Light';
+}
+
+.main_login_form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap:1rem;
+}
+
+.main_login_form_check{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main_login_form_input{
+  /* width:39.5rem; */
+  width: 100%;
+  height: 4rem;
+
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.main_login_form_button{
+  width: 30%;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #2563EB;
+  color: white;
+}
+
+@media(max-width : 639px){
+  .main_login_form_button{
+    width: 100%;
+  }
+}
+
+.main_login_form_button:hover{
+  background-color: rgba(37, 99, 235, 0.6);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.main_login_form>p>a, .main_login_form_check a{
+  color :#2563EB;
+}

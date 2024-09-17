@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index</title>
-  <link rel="stylesheet" href="../css/index.css">
+  <title>login</title>
+  <link rel="stylesheet" href="../css/login.css">
   <link rel="stylesheet" href="../css/header_footer.css">
   <script src="https://kit.fontawesome.com/351a912326.js" crossorigin="anonymous"></script>
 </head>
@@ -39,26 +39,52 @@
     </div>
 
     <div class="main">
-      <div class="main_title">
-        <h1 class="main_title_h1">Lorem ipsum dolor sit, amet consectetur adipisicing</h1>
-        <p class="main_title_p">lorem ipsum dolor sit</p>
+      <div class="main_introduce">
+        <div class="main_introduce_title">
+          <h1 class="main_introduce_title_title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p class="main_introduce_title_subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto unde corrupti explicabo, possimus odit, non dolores ipsa suscipit quos voluptates vitae? Odit, sed iste iusto suscipit consequatur quis iure delectus.
+          </p>
+        </div>
+        <div class="main_introduce_description">
+          <p class="main_introduce_description_comment">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi totam officiis repellendus veniam quasi aliquid sunt dolores quod ut error. Tempore delectus animi cupiditate in porro! Ex consectetur sint dolorum.
+          </p>
+          <div class="main_introduce_description_profil">
+            <div class="main_introduce_description_profil_img"></div>
+            <div class="main_introduce_description_profil_nameEmp">
+              <h2 class="main_introduce_description_profil_nameEmp_name">lorem ipsum</h2>
+              <p class="main_introduce_description_profil_nameEmp_emp">CEO</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="main_cardzone">
-        <div class="main_cardzone_card">
-          <div class="main_cardzone_card_cover"></div>
-          <p class="main_cardzone_card_discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sint modi asperiores ipsam, illo rerum ducimus reprehenderit deleniti aliquam iure explicabo blanditiis tempore dolorum quis ut deserunt soluta vel? Earum?</p>
-          <div class="main_cardzone_card_img" style="background-image: url('https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+      <div class="main_login">
+        <div class="main_login_introduce">
+          <h1 class="main_login_introduce_title">
+            lorem ipsum
+          </h1>
+          <p class="main_login_introduce_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus explicabo 
+          </p>
         </div>
-        <div class="main_cardzone_card">
-          <div class="main_cardzone_card_cover" style="animation-delay: 0.5s;"></div>
-          <p class="main_cardzone_card_discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam amet repudiandae sint quam obcaecati laborum vitae harum, praesentium repellat sequi quidem hic aliquam nesciunt minima optio totam voluptatem facilis.</p>
-          <div class="main_cardzone_card_img" style="background-image: url('https://images.unsplash.com/photo-1670969542635-5a3b03dd4121?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
-        </div>
-        <div class="main_cardzone_card">
-          <div class="main_cardzone_card_cover" style="animation-delay: 1s;"></div>
-          <p class="main_cardzone_card_discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus nisi labore quibusdam exercitationem voluptas quis dolor laborum non voluptates iure, repellat suscipit explicabo vel facere neque rem, commodi praesentium.</p>
-          <div class="main_cardzone_card_img" style="background-image: url('https://images.unsplash.com/photo-1694016834595-c858123b1ef5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
-        </div>
+        <form action="#" class="main_login_form">
+          <label for="id">ID</label>
+          <input type="text" name="id" id="id" class="main_login_form_input" required>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="main_login_form_input" required>
+          <div class="main_login_form_check">
+            <div class="main_login_form_check_checkboxZone">
+              <input type="checkbox" name="remember" id="remember">
+              <label for="remember">Remember me</label>
+            </div>
+            <a href="#">Forget password?</a>
+          </div>
+          <button type="submit" class="main_login_form_button">Login</button>
+          <p>Don't have an account? <a href="#">Create free account</a></p>
+        </form>
       </div>
     </div>
 
