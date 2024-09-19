@@ -140,7 +140,7 @@
   color: white;
 }
 
-@media(max-width : 1099px){
+@media(max-width : 1116px){
   .main{
     grid-auto-rows: 1fr;
   }
