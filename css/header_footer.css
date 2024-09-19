@@ -172,7 +172,7 @@ a:visited{
   transition: all 0.5s;
 }
 
-@media (min-width:601px) and (max-width:900px){
+@media (min-width:601px) and (max-width:916px){
   .header{
     flex-direction: column;
     height: 100px;
@@ -184,7 +184,7 @@ a:visited{
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:610px) {
   .header{
     flex-direction: column;
     height: 300px;
